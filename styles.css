@@ -9,7 +9,7 @@ div.flag {
     border: 2px solid;
     background: url("./img/flag.png");
     position: relative;
-    top: 100px;
+    top: 150px;
     margin: 0 auto;
 
 }
@@ -17,7 +17,7 @@ div.flag {
 
 img.profile {
     position: relative;
-    top: -100px;
+    top: -110px;
     left: 525px;
     border: 2px solid;
     z-index: 1;
@@ -26,6 +26,30 @@ img.profile {
 @font-face {
     font-family: dragonIsComing;
     src: url("dragon_is_coming.otf");
+}
+
+#js-text {
+    z-index: 2;
+    font-family: Menlo;
+    font-size: 23px;
+    height: 500px;
+    width: 420px;
+    position: relative;
+    float: right;
+    top: -665px;
+    opacity: 0.1;
+}
+
+#html-text {
+    z-index: 2;
+    font-family: Menlo;
+    font-size: 23px;
+    height: 500px;
+    width: 420px;
+    position: relative;
+    float: left;
+    top: -665px;
+    opacity: 0.1;
 }
 
 #name {
@@ -41,14 +65,13 @@ img.profile {
     font-family: dragonIsComing;
     font-size: 75px;
     position: relative;
-    top: -200px;
+    top: -215px;
 }
 
 table {
     position: relative;
     margin: 0 auto;
     top: -250px;
-    left: 10px;
     text-align: center;
     font-family: Arial;
     font-size: 14px;
@@ -59,13 +82,12 @@ td {
 }
 
 #eiffel {
-    z-index: -2;
+    z-index: -1;
     height: 1000px;
     width: auto;
     position: relative;
     margin: 0 auto;
-    top: -530px;
-    left: 460px;
+    top: -490px;
     ;
 }
 
