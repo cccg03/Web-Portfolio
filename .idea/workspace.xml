@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7be2533e-cc02-4a73-8086-ff99de002223" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dragon_is_coming.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/eiffel-tower.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/fleur_de_lis.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/info.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles.css" afterPath="$PROJECT_DIR$/styles.css" />
     </list>
     <ignored path="Web-Portfolio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,25 +25,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+            <state relative-caret-position="420">
+              <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
               <folding>
                 <element signature="n#style#0;n#tr#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#td#1;n#tr#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#1;n#tr#1;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="784">
-              <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+            <state relative-caret-position="705">
+              <caret line="66" column="12" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -87,7 +84,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-1" />
     <option name="y" value="23" />
-    <option name="width" value="1178" />
+    <option name="width" value="1035" />
     <option name="height" value="1279" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -241,12 +238,12 @@
       <updated>1459179512264</updated>
       <workItem from="1459179513384" duration="1430000" />
       <workItem from="1459258403859" duration="8422000" />
-      <workItem from="1459277265566" duration="10945000" />
+      <workItem from="1459277265566" duration="15056000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20797000" />
+    <option name="totallyTimeSpent" value="24908000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -258,10 +255,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="23" width="1178" height="1279" extended-state="0" />
+    <frame x="-1" y="23" width="1035" height="1279" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27139154" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3096647" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908458" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -303,6 +300,7 @@
             <element signature="n#style#0;n#tr#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#td#1;n#tr#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#1;n#tr#1;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -385,23 +383,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="784">
-          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+        <state relative-caret-position="420">
+          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
           <folding>
             <element signature="n#style#0;n#tr#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#td#1;n#tr#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#1;n#tr#1;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="66" column="12" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
