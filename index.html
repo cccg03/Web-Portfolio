@@ -5,12 +5,27 @@
     <link rel="stylesheet" type="text/css" href="./styles.css">
     <title>My Portfolio</title>
 </head>
+<!-- This is the code for the smooth scroll bar -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+<script>
+    $('.smooth').on('click', function() {
+        $.smoothScroll({
+            scrollElement: $('body'),
+            scrollTarget: '#' + this.id
+        });
+
+        return false;
+    });
+</script>
 <body>
+<!-- End of scroll bar -->
+
 
 <!-- Flag div contains the profile picture, French stuff, code, name, quick description, and buttons -->
 
 <div class="flag" style="position:relative; margin: 0 auto;">
-    <img class="profile" src="img/profile.jpg" align="center"/>
+    <img class="profile" src="img/headshot.jpg" align="center"/>
 
     <div id="name" align="center"> Casey James Garland </div>
 
@@ -42,28 +57,6 @@ Developer &lt;/p&gt; &lt;/div&gt;
 </div>
 
 
-    <div id="js-text" style="white-space: pre">
-function StudentReport() {
-    var grade1 = 4;
-    var grade2 = 2;
-    var grade3 = 1;
-this.getGPA = function() {
-    return (grade1 + grade2
-    + grade3) / 3;
-    };
-}
-var myStudentReport = new
-    StudentReport();
-for(var x in myStudentReport)
-        {
-    if(typeof
-myStudentReport[x] !==
-        "function") {
-    console.log(myStudent
-Report[x]
-    }
-    </div>
-
         <div align="center">
         <table>
             <tr style="align-content: center">
@@ -85,21 +78,18 @@ Report[x]
 
 <!-- End of flag div -->
 
-<div style="width: 570px; height: 650px;">
-    <p id="about" align="left"> I have over a decade of experience in Francophone studies,
+<img id="eiffel" src="img/eiffel-tower.jpg">
+
+<div id="about-page" style="border: 1px solid">
+    <a id="about" class="smooth"></a>
+    <p> I have over a decade of experience in Francophone studies,
         including linguistics and culture from France to Central Africa. </p>
 </div>
 
-<div id="eiffel" align="center">
-    <img src="img/eiffel-tower.jpg" style="width: auto; max-height: 1000px;">
+<div id="contact-page" style="border: 1px solid">
+    <a id="contact" class="smooth"></a>
+    <p> Contact info (e-mail address, phone number, location, social media)</p>
 </div>
-
-<p id="work"> </p>
-
-<p id="resume"> Link to my resume </p>
-
-<div id="contact" align="center">
-    Contact info (e-mail address, phone number, location, social media)</div>
 
 
 </body>
