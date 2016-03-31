@@ -44,9 +44,8 @@ href="./styles.css"&gt;
 &lt;/head&gt;
 &lt;body&gt;
     &lt;div class="flag"
-style="posit ion:relative; margin: 0 auto;"&gt;
-&lt;img class="profile" src="img/
-profile.jpg" align="center"/&gt;
+style="posit ion:relative; margin: 0 auto;"&gt; &lt;img class="profile"
+src="img/profile.jpg" align="center"/&gt;
     &lt;div id="name" align="center"&gt;
 Casey James Garland &lt;/div&gt;
     &lt;div id="center" align="center"&gt;
@@ -61,7 +60,7 @@ Developer &lt;/p&gt; &lt;/div&gt;
         <table>
             <tr style="align-content: center">
                 <td><a href="#work"> <img src="img/briefcase.png" /></a></td>
-                <td><a href="#resume"> <img src="img/resume.jpg" style="padding-left: 10px"/></a></td>
+                <td><a href="resume"> <img src="img/resume.jpg" style="padding-left: 10px"/></a></td>
                 <td><a href="#about"> <img src="img/info.jpg" /></a></td>
                 <td><a href="#contact"> <img src="img/contact.jpg" /></a></td>
             </tr>
@@ -80,15 +79,45 @@ Developer &lt;/p&gt; &lt;/div&gt;
 
 <img id="eiffel" src="img/eiffel-tower.jpg">
 
-<div id="about-page" style="border: 1px solid">
+
+<div id="about-page">
     <a id="about" class="smooth"></a>
     <p> I have over a decade of experience in Francophone studies,
         including linguistics and culture from France to Central Africa. </p>
 </div>
 
-<div id="contact-page" style="border: 1px solid">
+
+<div class="work">
+    <a id="work" class="smooth"></a>
+
+    <ul id="portfolio">
+        <li> Insert first portfolio here</li>
+        <li> Second portfolio work</li>
+        <li> Third portfolio work</li>
+        <li> Fourth portfolio work</li>
+    </ul>
+</div>
+
+
+<div id="contact-page">
     <a id="contact" class="smooth"></a>
     <p> Contact info (e-mail address, phone number, location, social media)</p>
+
+    <form>
+        <label for="visitorName">Thanks for visiting! If you're interested in contacting me, tell me your name! </label><input size="25" id="visitorName" name="name"> <br/>
+        <label for="email">What's your e-mail? </label><input type="text" size="50" id="email" name="email"><br/>
+        <label for="inquiry">How can I help you?</label><br/>
+        <select id="inquiry">
+        <option label="French" value="French"></option>
+        <option label="Localization" value="Localization"></option>
+        <option label="Translation Management" value="translationManagement"></option>
+        <option label="Web Development" value="webDevelopment"></option>
+        </select> <br/>
+        <label for="description">Please tell me how I can help in that regard!</label>
+        <textarea id="description" cols="10" rows="10"></textarea>
+    </form>
+
+
 </div>
 
 

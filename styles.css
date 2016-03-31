@@ -93,6 +93,7 @@ td {
 }
 
 #about-page {
+    border:1px solid red;
     height: 500px;
     width:auto;
     font-family: Verdana, Geneva;
@@ -102,11 +103,33 @@ td {
     top: 200px;
 }
 
+div.work {
+    border: 1px solid blue;
+    height: 200px;
+    width:auto;
+    font-family: Verdana, Geneva;
+    font-size: 35px;
+    position: relative;
+    margin: 2px auto;
+    top: 200px;
+}
+
+ul#portfolio li{
+    display: inline;
+}
+
 #contact-page {
-    height: 500px;
+    border: 1px solid green;
+    height: 350px;
     width:auto;
     font-family: Verdana, Geneva;
     font-size: 35px;
     position: relative;
     top: 200px;
+}
+
+form {
+    font-family: "Times New Roman";
+    font-size: 20px;
+
 }
