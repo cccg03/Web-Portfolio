@@ -71,6 +71,7 @@ img.profile {
 }
 
 table {
+    z-index: 3;
     position: relative;
     margin: 0 auto;
     top: -250px;
@@ -86,10 +87,10 @@ td {
 
 #eiffel {
     z-index: -1;
-    max-height: 650px;
+    max-height: 1000px;
     position: relative;
-    left: 60px;
-    top: 180px;
+    float: right;
+    border: 1px solid;
 }
 
 #about-page {
@@ -114,8 +115,20 @@ div.work {
     top: 200px;
 }
 
-ul#portfolio li{
-    display: inline;
+div#project1 {
+    float: left;
+    height: 200px;
+    border: 1px solid black;
+}
+div#project2 {
+    height: 200px;
+    max-width: 410px;
+    border: 1px solid black;
+}
+div#project3 {
+    float: right;
+    height: 200px;
+    border: 1px solid;
 }
 
 #contact-page {
@@ -131,5 +144,5 @@ ul#portfolio li{
 form {
     font-family: "Times New Roman";
     font-size: 20px;
-
 }
+
