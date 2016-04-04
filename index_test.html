@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <title>My Portfolio</title>
+</head>
+
+<body>
+
+<!-- Flag div contains the profile picture, French stuff, code, name, quick description, and buttons -->
+
+<div class="flag">
+    <img class="profile" src="img/headshot.jpg" align="center"/>
+
+    <div id="name" align="center"> Casey James Garland </div>
+
+    <div id="center" align="center">
+        <p> Francophile <img src="img/fleur_de_lis.png" /> Developer </p>
+    </div>
+
+    <div id="html-text" style="white-space: pre">
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;link rel="stylesheet" type="text/css"
+        href="./styles.css"&gt;
+        &lt;title&gt;My Portfolio&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+        &lt;div class="flag"
+        style="position:relative; margin: 0 auto;"&gt; &lt;img class="profile"
+        src="img/profile.jpg" align="center"/&gt;
+        &lt;div id="name" align="center"&gt;
+        Casey James Garland &lt;/div&gt;
+        &lt;div id="center" align="center"&gt;
+        &lt;p&gt; Francophile
+        &lt;img src="img/fleur_de_lis.png" /&gt;
+        Developer &lt;/p&gt; &lt;/div&gt;
+        &lt;div id="html-text"&gt;
+    </div>
+
+
+    <div align="center">
+        <table>
+            <tr style="align-content: center">
+                <td><a href="#work"> <img src="img/briefcase.png" /></a></td>
+                <td><a href="resume"> <img src="img/resume.jpg" style="padding-left: 10px"/></a></td>
+                <td><a href="#about"> <img src="img/info.jpg" /></a></td>
+                <td><a href="#contact"> <img src="img/contact.jpg" /></a></td>
+            </tr>
+            <tr>
+                <td>WORK</td>
+                <td style="padding-left: 10px">RESUME</td>
+                <td>ABOUT</td>
+                <td>CONTACT</td>
+            </tr>
+        </table>
+    </div>
+
+</div>
+
+<!-- End of flag div -->
+
+<img id="eiffel" src="img/eiffel-tower.jpg">
+
+
+<div id="about-page">
+
+    <p> I have over a decade of experience in Francophone studies,
+        including linguistics and culture from France to Central Africa.
+        I oversee the localization and translation of thousands of documents
+        every year for a Forbes 500 company in the Silicone Slopes, Utah</p>
+</div>
+
+
+<div class="work">
+    <ul>
+
+        <li>
+            <div id="project1">
+                Insert first portfolio
+            </div>
+        </li>
+
+        <li>
+            <div id="project2" align="center">
+                Second portfolio work
+            </div>
+        </li>
+        <li>
+            <div id="project3">
+                Third portfolio work
+            </div>
+
+    </ul>
+</div>
+
+<div id="contact-page">
+    <p> Contact info (e-mail address, phone number, location, social media)</p>
+
+    <form method="get" action="mailto:cccg03@gmail.com">
+        <label for="visitorName">Thanks for visiting! If you're interested in contacting me, tell me your name! </label><input size="25" id="visitorName" name="name"> <br/>
+        <label for="inquiry">How can I help you?</label><br/>
+        <select id="inquiry">
+            <option label="French" value="French"></option>
+            <option label="Localization" value="Localization"></option>
+            <option label="Translation Management" value="translationManagement"></option>
+            <option label="Web Development" value="webDevelopment"></option>
+        </select> <br/>
+        <label for="description">Please tell me how I can help with that!</label><input id="description" type="submit" value="E-mail me!">
+    </form>
+
+
+</div>
+
+
+</body>
+</html>

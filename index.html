@@ -10,7 +10,7 @@
 
 <!-- Flag div contains the profile picture, French stuff, code, name, quick description, and buttons -->
 
-<div class="flag" style="position:relative; margin: 0 auto;">
+<div class="flag">
     <img class="profile" src="img/headshot.jpg" align="center"/>
 
     <div id="name" align="center"> Casey James Garland </div>
@@ -51,10 +51,10 @@ Developer &lt;/p&gt; &lt;/div&gt;
                 <td><a href="#contact"> <img src="img/contact.jpg" /></a></td>
             </tr>
             <tr>
-                <td>WORK</td>
-                <td style="padding-left: 10px">RESUME</td>
-                <td>ABOUT</td>
-                <td>CONTACT</td>
+                <td><a href="#work">WORK</a></td>
+                <td style="padding-left: 10px"><a href="#resume">RESUME</a></td>
+                <td><a href="#about">ABOUT</a></td>
+                <td><a href="#contact">CONTACT</a></td>
             </tr>
         </table>
         </div>
@@ -66,9 +66,9 @@ Developer &lt;/p&gt; &lt;/div&gt;
 <img id="eiffel" src="img/eiffel-tower.jpg">
 
 
-<div id="about-page">
+<div class="about-page">
 
-    <p> I have over a decade of experience in Francophone studies,
+    <p style="clear: both"> I have over a decade of experience in Francophone studies,
         including linguistics and culture from France to Central Africa.
         I oversee the localization and translation of thousands of documents
         every year for a Forbes 500 company in the Silicone Slopes, Utah</p>
@@ -76,24 +76,33 @@ Developer &lt;/p&gt; &lt;/div&gt;
 
 
 <div class="work">
+    <ul>
 
-    <div id="project1">
+    <li>
+        <div id="project1">
         Insert first portfolio
-    </div>
+        </div>
+    </li>
 
-    <div id="project2">
+    <li>
+        <div id="project2" align="center">
         Second portfolio work
-    </div>
-
-    <div id="project3">
+        </div>
+    </li>
+    <li>
+        <div id="project3">
      Third portfolio work
-    </div>
+        </div>
 
+    </ul>
 </div>
 
-
-<div id="contact-page">
-    <p> Contact info (e-mail address, phone number, location, social media)</p>
+<div class="contact-page">
+    <ul id="#contact-info" align="center">
+        <li>cccg03@gmail.com</li>
+        <li>509-460-2875</li>
+        <li>Utah</li>
+    </ul>
 
     <form method="get" action="mailto:cccg03@gmail.com">
         <label for="visitorName">Thanks for visiting! If you're interested in contacting me, tell me your name! </label><input size="25" id="visitorName" name="name"> <br/>
@@ -104,7 +113,7 @@ Developer &lt;/p&gt; &lt;/div&gt;
         <option label="Translation Management" value="translationManagement"></option>
         <option label="Web Development" value="webDevelopment"></option>
         </select> <br/>
-        <label for="description">Please tell me how I can help in that regard!</label><input id="description" type="submit" value="E-mail me!">
+        <label for="description">Please tell me how I can help with that!</label><input id="description" type="submit" value="E-mail me!">
     </form>
 
 
