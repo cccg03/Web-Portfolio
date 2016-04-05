@@ -31,18 +31,6 @@ img.profile {
     src: url("dragon_is_coming.otf");
 }
 
-#js-text {
-    z-index: 2;
-    font-family: Menlo;
-    font-size: 23px;
-    height: 500px;
-    width: 420px;
-    position: relative;
-    float: right;
-    top: -665px;
-    opacity: 0.1;
-}
-
 #html-text {
     z-index: 2;
     font-family: Menlo;
@@ -112,8 +100,8 @@ div.about-page {
     position: relative;
     top: 150px;
     margin: 15px auto;
-
 }
+
 
 div.work {
     border: 1px solid blue;
