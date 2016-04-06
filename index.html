@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="./styles.css">
     <title>My Portfolio</title>
 </head>
@@ -46,13 +47,13 @@ Developer &lt;/p&gt; &lt;/div&gt;
         <table>
             <tr style="align-content: center">
                 <td><a href="#work-section"><img src="img/briefcase.png" /></a></td>
-                <td><a href="Resume_0416_.docx.html"> <img src="img/resume.jpg" style="padding-left: 10px"/></a></td>
+                <td><a href="Resume0416.docx.pdf" target="new_blank"> <img src="img/resume.jpg" style="padding-left: 10px"/></a></td>
                 <td><a href="#about-section"> <img src="img/info.jpg" /></a></td>
                 <td><a href="#contact-info"> <img src="img/contact.jpg" /></a></td>
             </tr>
             <tr>
                 <td><a href="#work-section">WORK</a></td>
-                <td style="padding-left: 10px"><a href="#resume">RESUME</a></td>
+                <td style="padding-left: 10px"><a href="Resume0416.docx.pdf">RESUME</a></td>
                 <td><a href="#about-section">ABOUT</a></td>
                 <td><a href="#contact-info">CONTACT</a></td>
             </tr>
@@ -62,8 +63,6 @@ Developer &lt;/p&gt; &lt;/div&gt;
 </div>
 
 <!-- End of flag div -->
-
-
 
 
 <div class="about-page" id="about-section">
@@ -104,6 +103,8 @@ Developer &lt;/p&gt; &lt;/div&gt;
 </div>
 
 <div class="watermarks">
+    <br/>
+    <h1 align="center">Some of my past clients and tools</h1>
 <table cellspacing="100">
     <tr>
         <td><img src="logos/actfl-logo3.gif"/></td>
@@ -124,25 +125,29 @@ Developer &lt;/p&gt; &lt;/div&gt;
 </div>
 
 
-<div class="contact-page" align="center">
-    <ul id="contact-info">
-        <li>cccg03@gmail.com &bull; </li>
-        <li>509-460-2875 &bull; </li>
+<div class="contact-page">
+    <ul align="center" id="contact-info">
+        <li>cccg03@gmail.com <img src="img/fleur_de_lis.png" /> </li>
+        <li>509-460-2875 <img src="img/fleur_de_lis.png" /> </li>
         <li>Utah</li>
     </ul>
 <br/>
 <br/>
-    <form method="get" action="mailto:cccg03@gmail.com">
-        <label for="visitorName">Thanks for visiting! If you're interested in contacting me, tell me your name! </label><input size="25" id="visitorName" name="name"> <br/>
-        <label for="inquiry">How can I help you?</label><br/>
+    <form method="get" action="">
+        <p>Thanks for visiting!</p>
+
+        <label for="inquiry">How can I help <b>you</b>?</label><br/>
         <select id="inquiry">
         <option label="French" value="French"></option>
         <option label="Localization" value="Localization"></option>
         <option label="Translation Management" value="translationManagement"></option>
         <option label="Web Development" value="webDevelopment"></option>
-        </select> <br/>
-        <label for="description">Please tell me how I can help with that!</label><input id="description" type="submit" value="E-mail me!">
+        </select> <br/><br/>
+        <label for="send">Please tell me how I can help with that! <br/><br/>
+        <textarea id="textarea">Hi Casey, &#13;&#10&#10</textarea><input class="myButton" id="send" type="submit" value="Send"></label>
+
     </form>
+
 
 
 </div>
