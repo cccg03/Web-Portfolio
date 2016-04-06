@@ -39,7 +39,7 @@ img.profile {
     width: 420px;
     position: relative;
     float: left;
-    top: -670px;
+    top: -675px;
     left: 8px;
     opacity: 0.1;
 }
@@ -60,19 +60,15 @@ img.profile {
     top: -200px;
 }
 
-table {
+#icons {
     z-index: 3;
     position: relative;
     margin: 0 auto;
     top: -250px;
-    left: -200px;
+    left: 75px;
     text-align: center;
     font-family: Arial;
     font-size: 14px;
-}
-
-td:hover {
-    font-weight: bold;
 }
 
 a:link {
@@ -94,7 +90,7 @@ td {
 div.about-page {
     border:1px solid #d5dfff;
     border-radius: 10px;
-    background-color: #d5dfff;
+    background-color: #e6ecff;
     height: 500px;
     width:1600px;
     font-family: Verdana, Geneva;
@@ -111,13 +107,13 @@ div.about-page > p {
     padding: 10px;
     position: relative;
     top: -50px;
-    left: 120px;
+    left: 100px;
     width: 1000px;
 }
 
 div.work {
     border: 1px solid #f6f6f6;
-    background-color: #f6f6f6;
+    background-color: #fafafa;
     border-radius: 10px;
     height: 335px;
     width: 1600px;;
@@ -134,7 +130,8 @@ div.watermarks {
     width: 1600px;
     margin: 15px auto;
     height: 300px;
-
+    background-color: #fafafa;
+    border-radius: 10px;
 }
 
 .watermarks > table {
@@ -147,9 +144,11 @@ div.watermarks {
 
 
 div.contact-page {
-    border: 1px solid green;
-    height: 300px;
-    width: 1280px;;
+    border: 1px solid #ffe6e3;
+    background-color: #ffe6e3;
+    border-radius: 10px;
+    height: 500px;
+    width: 1600px;;
     font-family: Verdana, Geneva;
     font-size: 15px;
     position: relative;
@@ -172,7 +171,7 @@ div#project1 {
     border: 1px solid black;
     margin: 5px;
     position: absolute;
-    left: 0px;
+    left: 10px;
     top: 0px;
 
 }
@@ -183,7 +182,7 @@ div#project2 {
     border: 1px solid black;
     margin: 5px;
     position: absolute;
-    left: 390px;
+    left: 415px;
     top: 0px;
 
 }
@@ -194,12 +193,25 @@ div#project3 {
     border: 1px solid;
     margin: 5px;
     position: absolute;
-    right: 0px;
+    right: 415px;
+    top: 0px;
+
+}
+
+div#project4 {
+    background-color: #f6f6f6;
+    height: 320px;
+    width: 350px;
+    border: 1px solid;
+    margin: 5px;
+    position: absolute;
+    right: 10px;
     top: 0px;
 
 }
 
 form {
+
     font-family: "Verdana";
     font-size: 20px;
 }
