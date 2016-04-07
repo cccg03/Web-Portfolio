@@ -137,27 +137,34 @@ div.watermarks {
     top: -75px;
     left: 10px;
     margin: 0 auto;
-    opacity: .5;
+    opacity: .7;
 }
 
+.watermarks > img {
+    max-width: 200px;
+}
 
 div.contact-page {
     border: 1px solid #ffe6e3;
     background-color: #ffe6e3;
     border-radius: 10px;
     height: 750px;
-    width: 1600px;;
-    font-family: Verdana, Geneva;
-    font-size: 15px;
+    width: 1600px;
     position: relative;
     top: 150px;
     margin: 15px auto;
 
 }
 
+.contact-page > ul {
+    position: relative;
+    right: 50px;
+}
+
+
 ul > li {
     font-family: Verdana;
-    font-size: 40px;
+    font-size: 30px;
     list-style-type: none;
     display: inline;
 }
@@ -213,7 +220,7 @@ form {
     background-color: #fcfcfc;
     position: relative;
     padding: 15px;
-    width: 1450px;
+    width: 550px;
     left: 50px;
     font-family: "Verdana";
     font-size: 20px;
@@ -240,12 +247,14 @@ form {
     cursor:pointer;
     color:#666666;
     font-family:Arial;
-    font-size:15px;
+    font-size:20px;
     font-weight:bold;
     padding:6px 24px;
-    margin-left: 10px;
+    margin-top: 5px;
     text-decoration:none;
     text-shadow:0px 1px 0px #ffffff;
+    height: 60px;
+    width: 120px;
 }
 .myButton:hover {
     background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f6f6f6), color-stop(1, #ffffff));
@@ -268,8 +277,20 @@ form {
     border: 1px solid #cccccc;
     height: 300px;
     width: 500px;
-    font-size: 15px;
+    font-size: 20px;
+    font-family: Verdana;
     position: relative;
-    top: 10px;
+    top: -5px;
 }
 
+#hook {
+    border-radius: 10px;
+    background-color: #fcfcfc;
+    position: absolute;
+    top: 105px;
+    left: 650px;
+    padding: 15px;
+    width: 550px;
+    font-family: "Verdana";
+    font-size: 20px;
+}
