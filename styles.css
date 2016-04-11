@@ -3,7 +3,6 @@ body {
 }
 
 
-
 div.flag {
     width: 1280px;
     height: 500px;
@@ -24,12 +23,24 @@ img.profile {
     z-index: 1;
 }
 
+
 @font-face {
     font-family: dragonIsComing;
     src: url("dragon_is_coming.otf");
 }
 
+@keyframes fadein {
+    0% {opacity: 0.0;}
+    100% {opacity: .1;}
+}
+
+a {
+    color: black;
+}
+
+
 #html-text {
+    animation: fadein 6s linear;
     z-index: 2;
     font-family: Menlo;
     font-size: 23px;
@@ -37,9 +48,9 @@ img.profile {
     width: 420px;
     position: relative;
     float: left;
-    top: -675px;
+    top: -670px;
     left: 8px;
-    opacity: 0.1;
+    opacity: .1;
 }
 
 #name {
@@ -69,13 +80,22 @@ img.profile {
     font-size: 14px;
 }
 
+#icons:hover {
+    height: 10px;
+}
+
 a:link {
     text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
 }
 
 td {
     padding-right: 15px;
 }
+
 
 #eiffel {
     max-height: 500px;
@@ -253,8 +273,8 @@ form {
     margin-top: 5px;
     text-decoration:none;
     text-shadow:0px 1px 0px #ffffff;
-    height: 60px;
-    width: 120px;
+    height: 40px;
+    width: 100px;
 }
 .myButton:hover {
     background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f6f6f6), color-stop(1, #ffffff));
