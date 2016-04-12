@@ -97,6 +97,8 @@ td {
 }
 
 
+
+
 #eiffel {
     max-height: 500px;
     position: relative;
@@ -110,7 +112,7 @@ div.about-page {
     border-radius: 10px;
     background-color: #e6ecff;
     height: 500px;
-    width:1600px;
+    width:1280px;
     font-family: Verdana, Geneva;
     font-size: 25px;
     position: relative;
@@ -124,9 +126,10 @@ div.about-page > p {
     border-radius: 10px;
     padding: 10px;
     position: relative;
-    top: -50px;
+    top: -600px;
     left: 100px;
     width: 1000px;
+    clear: both;
 }
 
 div.work {
@@ -134,7 +137,7 @@ div.work {
     background-color: #fafafa;
     border-radius: 10px;
     height: 335px;
-    width: 1600px;;
+    width: 1280px;;
     font-family: Verdana, Geneva;
     font-size: 35px;
     position: relative;
@@ -190,10 +193,9 @@ ul > li {
 }
 
 div#project1 {
-    background-color: #f6f6f6;
+
     height: 320px;
     width: 350px;
-    border: 1px solid black;
     margin: 5px;
     position: absolute;
     left: 10px;
@@ -201,13 +203,13 @@ div#project1 {
 
 }
 div#project2 {
-    background-color: #f6f6f6;
+
     height: 320px;
     width: 350px;
-    border: 1px solid black;
+
     margin: 5px;
     position: absolute;
-    left: 415px;
+    left: 400px;
     top: 0px;
 
 }
@@ -218,19 +220,7 @@ div#project3 {
     border: 1px solid;
     margin: 5px;
     position: absolute;
-    right: 415px;
-    top: 0px;
-
-}
-
-div#project4 {
-    background-color: #f6f6f6;
-    height: 320px;
-    width: 350px;
-    border: 1px solid;
-    margin: 5px;
-    position: absolute;
-    right: 10px;
+    right: 5px;
     top: 0px;
 
 }
