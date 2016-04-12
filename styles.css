@@ -167,24 +167,6 @@ div.watermarks {
     max-width: 200px;
 }
 
-div.contact-page {
-    border: 1px solid #ffe6e3;
-    background-color: #ffe6e3;
-    border-radius: 10px;
-    height: 750px;
-    width: 1600px;
-    position: relative;
-    top: 150px;
-    margin: 15px auto;
-
-}
-
-.contact-page > ul {
-    position: relative;
-    right: 50px;
-}
-
-
 ul > li {
     font-family: Verdana;
     font-size: 30px;
@@ -206,23 +188,37 @@ div#project2 {
 
     height: 320px;
     width: 350px;
-
     margin: 5px;
     position: absolute;
-    left: 400px;
+    left: 430px;
     top: 0px;
 
 }
 div#project3 {
-    background-color: #f6f6f6;
+    top: 0px;
     height: 320px;
     width: 350px;
-    border: 1px solid;
+    left: 850px;
     margin: 5px;
     position: absolute;
-    right: 5px;
-    top: 0px;
 
+}
+
+div.contact-page {
+    border: 1px solid #ffe6e3;
+    background-color: #ffe6e3;
+    border-radius: 10px;
+    height: 750px;
+    width: 1600px;
+    position: relative;
+    top: 150px;
+    margin: 15px auto;
+
+}
+
+.contact-page > ul {
+    position: relative;
+    right: 50px;
 }
 
 form {
@@ -236,6 +232,21 @@ form {
     font-size: 20px;
 }
 
+@media screen and (max-width: 1000px){
+    form {
+        border-radius: 10px;
+        background-color: #fcfcfc;
+        position: relative;
+        padding: 15px;
+        width: 550px;
+        left: 500px;
+        font-family: "Verdana";
+        font-size: 20px;
+    }
+    div#hook {
+
+    }
+}
 
 .myButton {
     -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
