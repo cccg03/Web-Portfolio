@@ -58,7 +58,7 @@ a {
     font-size: 200px;
     text-align: center;
     position: relative;
-    top: -130px;
+    top: -175px;
 
 }
 
@@ -66,7 +66,7 @@ a {
     font-family: dragonIsComing;
     font-size: 75px;
     position: relative;
-    top: -200px;
+    top: -250px;
 }
 
 #icons {
@@ -74,11 +74,12 @@ a {
     position: relative;
     margin: 0 auto;
     top: -250px;
-    left: 75px;
+    left: 100px;
     text-align: center;
     font-family: Arial;
     font-size: 14px;
 }
+
 
 #icons:hover {
     height: 10px;
@@ -91,11 +92,6 @@ a:link {
 a:hover {
     font-weight: bold;
 }
-
-td {
-    padding-right: 15px;
-}
-
 
 
 
@@ -148,7 +144,7 @@ div.work {
 div.watermarks {
     position: relative;
     top: 150px;
-    width: 1600px;
+    width: 1280px;
     margin: 15px auto;
     height: 450px;
     background-color: #fafafa;
@@ -156,9 +152,9 @@ div.watermarks {
 }
 
 .watermarks > table {
+
     position: relative;
-    top: -75px;
-    left: 10px;
+    top: 100px;
     margin: 0 auto;
     opacity: .7;
 }
@@ -166,7 +162,6 @@ div.watermarks {
 .watermarks > img {
     max-width: 200px;
 }
-
 ul > li {
     font-family: Verdana;
     font-size: 30px;
@@ -209,7 +204,7 @@ div.contact-page {
     background-color: #ffe6e3;
     border-radius: 10px;
     height: 750px;
-    width: 1600px;
+    width: 1280px;
     position: relative;
     top: 150px;
     margin: 15px auto;
@@ -227,22 +222,12 @@ form {
     position: relative;
     padding: 15px;
     width: 550px;
+    top: -10px;
     left: 50px;
     font-family: "Verdana";
     font-size: 20px;
 }
 
-@media screen and (max-width: 1000px){
-    form {
-        border-radius: 10px;
-        background-color: #fcfcfc;
-        position: relative;
-        padding: 15px;
-        width: 550px;
-        left: 500px;
-        font-family: "Verdana";
-        font-size: 20px;
-    }
     div#hook {
 
     }
@@ -308,7 +293,7 @@ form {
     border-radius: 10px;
     background-color: #fcfcfc;
     position: absolute;
-    top: 105px;
+    top: 82px;
     left: 650px;
     padding: 15px;
     width: 550px;
