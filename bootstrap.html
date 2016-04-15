@@ -1,75 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
-
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <title>My Portfolio</title>
 </head>
-<div>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
 
+<body>
 
+<!-- Flag div contains the profile picture, French stuff, code, name, quick description, and buttons -->
 
+<div class="flag">
+    <img class="profile" src="img/headshot.jpg" align="center"/>
 
-<div class="container">
-    <div class="row">
-        <div class="col-sm-12" style="border: 1px solid;" align="center">
-            <h1>Getting Started</h1>
-        </div>
+    <div id="name" align="center"> Casey James Garland </div>
+
+    <div id="center" align="center">
+        <p> Francophile <img src="img/fleur_de_lis.png" style="height: 30px"/> Developer </p>
     </div>
 
-    <div class="row" align="center">
-        <div class="col-sm-6" style="border: 1px solid;">
-            <h1>This takes up 6</h1>
-        </div>
-        <div class="col-sm-6" style="border: 1px solid;">
-            <h1>This also takes up 6</h1>
-        </div>
+    <div id="html-text" style="white-space: pre">
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;link rel="stylesheet" type="text/css"
+        href="./styles.css"&gt;
+        &lt;title&gt;My Portfolio&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+        &lt;div class="flag"
+        style="position:relative; margin: 0 auto;"&gt; &lt;img class="profile"
+        src="img/profile.jpg" align="center"/&gt;
+        &lt;div id="name" align="center"&gt;
+        Casey James Garland &lt;/div&gt;
+        &lt;div id="center" align="center"&gt;
+        &lt;p&gt; Francophile
+        &lt;img src="img/fleur_de_lis.png" /&gt;
+        Developer &lt;/p&gt; &lt;/div&gt;
+        &lt;div id="html-text"&gt;
     </div>
-</div>
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-sm-12" style="border: 1px solid;">
-            <p>This is a paragraph that takes up the width of the screen</p>
-        </div>
+
+
+
+    <div id="icons" align="center">
+        <table>
+            <tr style="align-content: center">
+                <td><a href="#work-section"><i class="fa fa-briefcase fa-3x"></i></a></td>
+                <td><a href="Resume0416.docx.pdf" target="new_blank"> <i class="fa fa-file-text-o fa-3x" style="padding-left: 10px"></i></a></td>
+                <td><a href="#about-section"><i class="fa fa-info fa-3x"></i></a></td>
+                <td><a href="#contact-info"> <i class="fa fa-envelope fa-3x"></i></a></td>
+            </tr>
+            <tr>
+                <td><a href="#work-section">WORK</a></td>
+                <td style="padding-left: 10px"><a href="Resume0416.docx.pdf">RESUME</a></td>
+                <td><a href="#about-section">ABOUT</a></td>
+                <td><a href="#contact-info" style=": none">CONTACT</a></td>
+            </tr>
+        </table>
     </div>
-</div>
 
 </div>
 
+<!-- End of flag div -->
 
-<div class="watermarks container">
 
-    <div class="row" align="center" style="font-family: Verdana; font-size: 25px">
-        <div class="col-md-12">Some of my past clients and tools</div>
+<div class="about-page" id="about-section">
+
+    <p> I have over a decade of experience in Francophone studies,
+        including linguistics and culture from France to Central Africa.
+        I currently oversee the localization and translation of thousands of documents
+        every year at a Forbes Fortune 500 software company in the Silicone Slopes, Utah.</p>
+</div>
+
+
+<div id="work-section" class="work">
+    <ul>
+
+        <li>
+            <div id="project1">
+                <img src="img/project3-img.jpg"/>
+            </div>
+        </li>
+
+        <li>
+            <div id="project2">
+                <img src="img/project2-img.jpg"/>
+            </div>
+        </li>
+        <li>
+            <div id="project3">
+                <img src="img/board.jpg"/>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<div class="watermarks">
+    <br/>
+    <p align="center" style="font-family: Verdana; font-size: 25px">Some of my past clients and tools</p>
+    <table cellspacing="70">
+        <tr>
+            <td><img src="logos/actfl-logo3.png"/></td>
+            <td><img src="logos/verisk-logo.png"/></td>
+            <td><img src="logos/cfhg-logo.png"/></td>
+            <td><img src="logos/jira-logo.png"/></td>
+            <td><img src="logos/lds-logo.png"/></td>
+        </tr>
+        <tr>
+            <td><img src="logos/lingotek-logo.png"/></td>
+            <td><img src="logos/paws-up-logo.gif"/></td>
+            <td><img src="logos/sirsidynix-logo.png"/></td>
+            <td><img src="logos/xactware-logo.png"/></td>
+            <td><img src="logos/tapif-logo.jpg"/></td>
+        </tr>
+    </table>
+
+</div>
+
+
+<div class="contact-page">
+    <ul align="center" id="contact-info" style="position: relative; top: 15px;">
+        <li>cccg03@gmail.com <img src="img/fleur_de_lis.png" style="height: 20px;"/> </li>
+        <li>509-460-2875 <img src="img/fleur_de_lis.png" style="height: 20px;"/> </li>
+        <li>Utah</li>
+    </ul>
+    <br/>
+    <br/>
+    <form method="get" action="">
+        <label for="inquiry"><b>Thanks for visiting!</b><br/><br/>
+            How can I help <b>you</b> and/or <b>your company</b>?</label><br/><br/>
+        <select id="inquiry" style="font-size: 20px">
+            <option label="French" value="French"></option>
+            <option label="Localization" value="Localization"></option>
+            <option label="Translation Management" value="translationManagement"></option>
+            <option label="Web Development" value="webDevelopment"></option>
+        </select> <br/><br/>
+        <label for="send">Please tell me how I can help with that! <br/><br/>
+            <textarea id="textarea">Hi Casey, &#13;&#10&#10My name is...</textarea><input class="myButton" id="send" type="submit" value="Send"></label>
+
+    </form>
+    <div id="hook">
+        <p>
+            I am a dynamic and adaptive individual. I've worked in everything from maintaining ranch vacation resort websites
+            and researching 18th century French genealogy to translations for library and property insurance software. I've taught
+            my French peers English, and my American peers French.
+        </p>
+
     </div>
-        <div class="row" align="center" >
-            <div class="col-md-5-offset-2"><img src="logos/actfl-logo3.png"/><img src="logos/verisk-logo.png"/><img src="logos/cfhg-logo.png"/><img src="logos/jira-logo.png"/><img src="logos/lds-logo.png"/></div>
-        </div>
-        <div class="row" align="center">
-            <div class="col-md-5-offset-2"><img src="logos/lingotek-logo.png"/><img src="logos/paws-up-logo.gif"/><img src="logos/sirsidynix-logo.png"/><img src="logos/xactware-logo.png"/><img src="logos/tapif-logo.jpg"/></div>
-        </div>
-
-</div>
 
 
 </body>

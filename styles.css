@@ -49,7 +49,7 @@ a {
     position: relative;
     float: left;
     top: -670px;
-    left: 8px;
+    left: -100px;
     opacity: .1;
 }
 
@@ -58,7 +58,7 @@ a {
     font-size: 200px;
     text-align: center;
     position: relative;
-    top: -175px;
+    top: -130px;
 
 }
 
@@ -66,14 +66,14 @@ a {
     font-family: dragonIsComing;
     font-size: 75px;
     position: relative;
-    top: -250px;
+    top: -205px;
 }
 
 #icons {
     z-index: 3;
     position: relative;
     margin: 0 auto;
-    top: -250px;
+    top: -255px;
     left: 100px;
     text-align: center;
     font-family: Arial;
@@ -132,7 +132,7 @@ div.work {
     border: 1px solid #f6f6f6;
     background-color: #fafafa;
     border-radius: 10px;
-    height: 335px;
+    height: 375px;
     width: 1280px;;
     font-family: Verdana, Geneva;
     font-size: 35px;
@@ -154,7 +154,7 @@ div.watermarks {
 .watermarks > table {
 
     position: relative;
-    top: 100px;
+    top: -50px;
     margin: 0 auto;
     opacity: .7;
 }
@@ -173,9 +173,9 @@ div#project1 {
 
     height: 320px;
     width: 350px;
-    margin: 5px;
+    margin: 25px;
     position: absolute;
-    left: 10px;
+    left: 25px;
     top: 0px;
 
 }
@@ -183,9 +183,9 @@ div#project2 {
 
     height: 320px;
     width: 350px;
-    margin: 5px;
+    margin: 25px;
     position: absolute;
-    left: 430px;
+    left: 445px;
     top: 0px;
 
 }
@@ -193,8 +193,8 @@ div#project3 {
     top: 0px;
     height: 320px;
     width: 350px;
-    left: 850px;
-    margin: 5px;
+    left: 865px;
+    margin: 25px;
     position: absolute;
 
 }
@@ -228,9 +228,9 @@ form {
     font-size: 20px;
 }
 
-    div#hook {
+div#hook {
 
-    }
+
 }
 
 .myButton {
