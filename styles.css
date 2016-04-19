@@ -162,6 +162,7 @@ div.watermarks {
 .watermarks > img {
     max-width: 200px;
 }
+
 ul > li {
     font-family: Verdana;
     font-size: 30px;
@@ -293,10 +294,20 @@ div#hook {
     border-radius: 10px;
     background-color: #fcfcfc;
     position: absolute;
-    top: 82px;
+    top: 93px;
     left: 650px;
     padding: 15px;
     width: 550px;
     font-family: "Verdana";
     font-size: 20px;
+}
+
+#social {
+    position: relative;
+    top: -15px;
+    left: 450px;
+}
+
+#social > li {
+    padding: 10px;
 }
